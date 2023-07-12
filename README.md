@@ -2,7 +2,7 @@
 Always wanted a friend who will never lose sight of you? Meet Friend-bot, a robot that simply wants to be friends! Friend-bot will keep you in its sight and follow you around, just like a real friend would do. Be it a party or a fun weekend DIY project, Friend-bot is sure to bring a smile on everyone's face.
 
 ## Overview
-Friend-bot uses computer vision to detect faces and moves towards the detected face. This creates an impression of an inquisitive friend who is always interested in you. The project uses a RaspberryPi 4 for face detection, an Arduino Nano for motor control, and a pair of Nema 17 motors driven by A4988 drivers for movement.
+Friend-bot uses computer vision to detect faces and moves towards the detected face. This creates an impression of an inquisitive friend who is always interested in you. The project uses a RaspberryPi 4 for face detection, an Arduino Nano for motor control, and a pair of Nema 17 motors driven by A4988 drivers for movement. Requires OpenCV
 
 ## Materials
 To build your very own Friend-bot, you'll need:
@@ -24,14 +24,6 @@ Once you have Friend-bot set up, switch it on and it will start searching for a 
 ## Contributing
 Got ideas to make Friend-bot even friendlier? We'd love to hear them! Please feel free to open an issue or submit a pull request.
 
-## License
-Friend-bot is open source and is licensed under nothing. Have fun. Keep it safe. Don't get hurt
-
-## Acknowledgments
-Special thanks to the OpenAI team for developing ChatGPT, which played a crucial role in developing this project. We would also like to thank our friends and families for their continuous support and encouragement.
-
-## Happy Building! 🚀
-Get your hands dirty, have fun building your Friend-bot, and spread joy!
 
 
 

@@ -1,3 +1,5 @@
+// Arduino Nano
+
 #include <Arduino.h>
 
 #define DIR1 6
