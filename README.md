@@ -12,6 +12,7 @@ To build your very own Friend-bot, you'll need:
 1 x RaspberryPi 4
 1 x Arduino Nano
 1 x 4s LIPO Battery
+1 x USB camera
 Passive Components (Resistors, Capacitors, etc.)
 Lots of enthusiasm! 🎉
 Setup and Installation
