@@ -1,11 +1,9 @@
-// Arduino Nano
-
 #include <Arduino.h>
 
 #define DIR1 6
 #define STEP1 2
-#define DIR2 5
-#define STEP2 0
+#define DIR2 7
+#define STEP2 13
 
 bool reversed = false;
 unsigned long lastFaceDetected = 0;
@@ -42,12 +40,13 @@ void loop() {
     }
     digitalWrite(STEP1, HIGH);
     digitalWrite(STEP2, HIGH);
-    delayMicroseconds(1000); // delay for stepper motor speed
+    delayMicroseconds(2000); // delay for stepper motor speed
     digitalWrite(STEP1, LOW);
     digitalWrite(STEP2, LOW);
-    delayMicroseconds(1000);
+    delayMicroseconds(2000);
   } else { // no face detected in the last second, stop moving
     digitalWrite(STEP1, LOW);
     digitalWrite(STEP2, LOW);
+
   }
 }
